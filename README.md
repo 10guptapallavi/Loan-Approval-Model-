@@ -8,12 +8,12 @@ In this notebook, a machine learning model is formed to check the applicant's pr
 
 Following Approah will be implemented:
 
-Problem definition
-Data Exploration
-Data Cleaning
-Data Modelling
-Experimentation
-Result
+#Problem definition
+#Data Exploration
+#Data Cleaning
+#Data Modelling
+#Experimentation
+#Result
 
 1. Problem Defination
    
