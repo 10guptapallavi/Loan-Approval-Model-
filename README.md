@@ -11,34 +11,37 @@ Following Approah will be implemented:
 Problem definition
 Data Exploration
 Data Cleaning
-Data Preprocessing
-Evaluation
-Features
-Modelling
+Data Modelling
 Experimentation
+Result
+
 1. Problem Defination
+   
 Based on the applicants loan amount, applicant income, coapplicant income, marital status, education, property area, number of dependents, Gender, type of employement, will it be possible to predict the status of loan if it is approved or not?
 
 2. Data Exploration
+   
 The raw data has 13 attributes which effect the loan aproval chance. The attributes are of two type- categorical and numeric. Explored raw data in terms of different attributes and draw very common conclusions for the chance of loan approval.
 
 3. Data cleaning
+   
 Raw data has many null values, so data cleaning is done to fill those null values.
 
-4. Data Preprocessing
-Numeric data such as loan amount and applicant and coapplicant income has many outliers showing in their the boxplot and hist plots. I tried to remove the skeweness to get a better model. Rescale the numeric attributes to enhance the model predictions.
+4. Data Modelling
 
-7. Evaluation
-After modelling, main motive is to find the category of the Iris Flower
+Numeric data such as loan amount and applicant and coapplicant income has many outliers showing in their the boxplot and hist plots. I tried to remove the skeweness to get a better model. For modeling, I have identified 4 models to try:
 
-8. Data Features or Data Attributes
-Information of different attributes of data is given below:
+I will be using different models to study our data:
 
-Create data dictionary sepal length in cm sepal width in cm petal length in cm petal width in cm class: -- Iris Setosa
+KNeighbors
+Naive Bayes
+DecisionTreeClassifier
+RandomForestClassifier
 
--- Iris Versicolour
+5. Experimentation
+   
+After modelling, main motive is to test the new dataset to find the loan approcal 
 
--- Iris Virginica
 
 Important Libraries
 I imported several libraries for the project:
@@ -48,21 +51,12 @@ pandas: To work with csv files and dataframes
 matplotlib: To create charts
 seaborn: To create different category charts
 train_test_split: To split the dataset into training and testing data
-Approach
-Data Wrangling
+sklearn: to make models for the prediction
 
-Exploratory Data Analysis (EDA) on the data set.
-
-For modeling, I have identified 7 models to try:
-
-I will be using different models to study our data:
-
-Logistic Regression
-SVM- Support Vector Machine
-KNeighbors
-Naive Bayes
-DecisionTreeClassifier
-RandomForestClassifier
-GradientBoostingClassifier
 Test size of Train-Test-Split is set to 20%
 
+6. Result
+In general, it can be seen that all models can achieve up to 70% accuracy. The highest accuracy is 84% shown by Naive Bayes model
+
+
+   
