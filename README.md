@@ -9,13 +9,18 @@ In this notebook, a machine learning model is formed to check the applicant's pr
 Following Approah will be implemented:
 
 #Problem definition
+
 #Data Exploration
+
 #Data Cleaning
+
 #Data Modelling
+
 #Experimentation
+
 #Result
 
-1. Problem Defination
+1. Problem Definition
    
 Based on the applicants loan amount, applicant income, coapplicant income, marital status, education, property area, number of dependents, Gender, type of employement, will it be possible to predict the status of loan if it is approved or not?
 
